@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ETicaretAPI.Persistence.Contexts
 {
-    internal class ETicaretAPIDbContext : DbContext
+    public class ETicaretAPIDbContext : DbContext
     {
         public ETicaretAPIDbContext(DbContextOptions options) : base(options)
         {}
